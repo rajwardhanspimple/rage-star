@@ -2,8 +2,8 @@ const mysql = require('mysql');
 
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'your_username',
-    password: 'your_password',
+    user: 'your',
+    password: 'your',
     database: 'chat_room_db',
 });
 
